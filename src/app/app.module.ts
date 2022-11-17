@@ -17,6 +17,7 @@ import { HttpClientModule ,HTTP_INTERCEPTORS} from "@angular/common/http";
 import { TaskComponent } from './task component/task/task.component';
 import { TaskDashboardComponent } from './task component/task-dashboard/task-dashboard.component';
 import { ToastrModule } from 'ngx-toastr';
+import { PageNotFoundComponent } from './page-not-found/page-not-found.component';
 
 @NgModule({
   declarations: [
@@ -24,7 +25,8 @@ import { ToastrModule } from 'ngx-toastr';
     RegisterComponent,
     LoginComponent,
     TaskComponent,
-    TaskDashboardComponent
+    TaskDashboardComponent,
+    PageNotFoundComponent
   ],
   imports: [
     BrowserModule,

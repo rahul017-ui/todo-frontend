@@ -17,10 +17,6 @@ export class TaskComponent implements OnInit {
   userId: any
 
   taskForm!:FormGroup
-  // taskForm = new FormGroup({
-  //   pincode: new FormControl('',Validators.required),
-  //   task: new FormControl('')
-  // })
   constructor(private formBuilder: FormBuilder,private taskService: TaskService, private router: Router, private userService: UserService, private toastr: ToastrService) { }
 
   ngOnInit(): void {
