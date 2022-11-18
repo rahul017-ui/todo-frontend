@@ -12,3 +12,13 @@
   justify-content: center;
   background-color: lightgoldenrodyellow;
 }
+/* .newUser{
+  display: flex;
+  justify-content: end;
+} */
+
+mat-card-title,
+mat-card-content {
+  display: flex;
+  justify-content: center;
+}
